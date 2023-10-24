@@ -350,6 +350,7 @@ header.sticky {
   width: 160px;
   transition: all .45s ease;
   color: var(--bg-color);
+  margin-top: 20px;
 }
 
 .contact-form .submit:hover {
