@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Tisetso</title>
     <link rel="stylesheet" type="text/css" href="sources/css/styles.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,7 +35,9 @@
             </div>
             <h1>Tisetso</h1>
             <h3>Web <span>Developer</span></h3> 
-            <p>I am passionate about creating outstanding <br>online experiences. I enjoy using my expertise<br> to write clear, effective code to realise original<br> ideas. I am dedicated to contributing to the<br> shaping of the digital environment because<br> I believe that the web has the ability to bring <br>people together, solve issues, and inspire change.</p>
+            <div class="home-text-box">
+                <p>I am passionate about creating outstanding <br>online experiences. I enjoy using my expertise<br> to write clear, effective code to realise original<br> ideas. I am dedicated to contributing to the<br> shaping of the digital environment because<br> I believe that the web has the ability to bring <br>people together, solve issues, and inspire change.</p>
+            </div>
         </div>
     </section>
 
@@ -134,11 +136,12 @@
         </div>
 
         <div class="contact-form">
-            <form action="">
+            <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
                 <input type="name" placeholder="Your Name" required>
                 <input type="email" placeholder="Your Email Address" required>
                 <input type="" placeholder="Your Mobile Number" required>                    
                 <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You?"></textarea>
+                <div data-netlify-recaptcha="true"></div>
                 <input type="submit" value="Send Message" class="submit" required>
                 </form>
             </div>

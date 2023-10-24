@@ -136,6 +136,17 @@ section {
   list-style: 1.1;
 }
 
+.home-text-box {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.home-text-box p {
+  margin: 15px;
+}
+
 header.sticky {
   background: var(--bg-color);
   border-bottom: 1px solid #fff;
