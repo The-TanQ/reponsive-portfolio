@@ -171,6 +171,7 @@ header.sticky {
 .about-text h2 {
   font-size: var(--h2-font);
   line-height: 1;
+  margin-top: 3rem;
 }
 
 .about-text h4 {
@@ -190,7 +191,7 @@ header.sticky {
 
 .skills {
   background: var(--second-bg-color);
-  padding: 120px 80px;
+  padding: 3rem 60px;
 }
 
 .main-text {
@@ -206,6 +207,7 @@ header.sticky {
   font-size: var(--h2-font);
   line-height: 1;
   margin-bottom: 30px;
+  padding-top: 3rem;
 }
 
 .skills-container {
@@ -268,6 +270,8 @@ header.sticky {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2.5rem;
+  margin-top: 3rem;
+  padding-top: 6rem;
 }
 
 .contact-text p{
