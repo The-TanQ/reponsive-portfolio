@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tisetso</title>
     <link rel="stylesheet" type="text/css" href="sources/css/styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="dns-prefetch" href="https://unpkg.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" as="style">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -44,7 +46,7 @@
     <!-- about -->
     <section class="about" id="about">
         <div class="about-img">
-            <img src="sources/images/about.jpg">
+            <img src="sources/images/about.jpg" loading="lazy" alt="Tisetso">
         </div>
         <div class="about-text">
             <h2>About <span>Me</span></h2>
@@ -61,19 +63,19 @@
             <div class="skills-container">
                 <div class="box">
                     <i class='bx bxl-html5'></i>
-                    <i class='bx bxl-css3' style='color:#ffffff' ></i>
-                    <i class='bx bxl-javascript' style='color:#ffffff' ></i>
-                    <i class='bx bxl-c-plus-plus' style='color:#ffffff' ></i>
-                    <i class='bx bxl-python' style='color:#ffffff' ></i>
-                    <i class='bx bxl-chrome' style='color:#ffffff' ></i>
-                    <i class='bx bxs-terminal' style='color:#ffffff' ></i>
-                    <i class='bx bxl-git' style='color:#ffffff' ></i>
-                    <i class='bx bxl-github' style='color:#ffffff' ></i>
-                    <i class='bx bxs-universal-access' style='color:#ffffff' ></i>
-                    <i class='bx bxl-nodejs' style='color:#ffffff' ></i>
-                    <i class='bx bxl-redux' style='color:#ffffff' ></i>
-                    <i class='bx bxl-react' style='color:#ffffff' ></i>
-                    <i class='bx bxl-postgresql'style='color:#ffffff' ></i>
+                    <i class='bx bxl-css3'></i>
+                    <i class='bx bxl-javascript'></i>
+                    <i class='bx bxl-c-plus-plus'></i>
+                    <i class='bx bxl-python'></i>
+                    <i class='bx bxl-chrome'></i>
+                    <i class='bx bxs-terminal'></i>
+                    <i class='bx bxl-git'></i>
+                    <i class='bx bxl-github'></i>
+                    <i class='bx bxs-universal-access'></i>
+                    <i class='bx bxl-nodejs'></i>
+                    <i class='bx bxl-redux'></i>
+                    <i class='bx bxl-react'></i>
+                    <i class='bx bxl-postgresql'></i>
                 </div>
             </div>
         </div>
@@ -90,7 +92,7 @@
         <div class="project-container">
             <div class="row">
                 <a href="http://wowoutreach.co.za/" target="_blank" rel="noopener noreferrer">
-                    <img src="sources/images/wow.png">
+                    <img src="sources/images/wow.png" loading="lazy" alt="Walking On Water Outreach">
                     <div class="layer">
                         <p>Walking On Water Outreach</p>
                     </div>
@@ -99,7 +101,7 @@
 
             <div class="row">
                 <a href="https://tisetsos-quiz.netlify.app/" target="_blank" rel="noopener noreferrer">
-                    <img src="sources/images/quiz.png">
+                    <img src="sources/images/quiz.png" loading="lazy" alt="Intuitive Quiz Hub">
                     <div class="layer">
                         <p>Intuitive Quiz Hub</p>
                     </div>
@@ -108,7 +110,7 @@
 
             <div class="row">
                 <a href="https://redmini.netlify.app/" target="_blank" rel="noopener noreferrer">
-                    <img src="sources/images/reddit.png">
+                    <img src="sources/images/reddit.png" loading="lazy" alt="Reddit Client">
                     <div class="layer">
                         <p>Reddit Client</p>
                     </div>
@@ -117,7 +119,7 @@
 
             <div class="row">
                 <a href="https://webshopjs.netlify.app/" target="_blank" rel="noopener noreferrer">
-                    <img src="sources/images/shop.png">
+                    <img src="sources/images/shop.png" loading="lazy" alt="WebShop">
                     <div class="layer">
                         <p>WebShop</p>
                     </div>
@@ -133,13 +135,13 @@
             <h2>Contact <span>Me</span></h2>
             <p>If you have any project in mind, contact me to help you make it a reality.<p>
             <div class="list">
-                <li><i class='bx bx-phone' style='color:#ffffff' ></i><a href="#">0762725656</a></li>
-                <li><i class='bx bx-envelope' style='color:#ffffff' ></i><a href="#">tisetsoramolobeng@gmail.com</a></li>
+                <li><i class='bx bx-phone'></i><a href="#">0762725656</a></li>
+                <li><i class='bx bx-envelope'></i><a href="#">tisetsoramolobeng@gmail.com</a></li>
             </div>
 
             <div class="contact-icons">
-            <a href="#"><i class='bx bxl-linkedin' style='color: var(--bg-color)' ></i></a>
-            <a href="#"><i class='bx bxl-github' style='color: var(--bg-color)' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
             </div>
         </div>
 
@@ -168,6 +170,6 @@
     </section>
  
     <!-- js link -->
-    <script type="text/javascript" src="sources/js/main.js"></script>
+    <script type="text/javascript" src="sources/js/main.js" defer></script>
 </body>
 </html>
