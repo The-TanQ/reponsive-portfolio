@@ -88,7 +88,7 @@ span {
 }
 
 section {
-  padding: 120px 15% 80px;
+  padding: 120px 15% 100px;
 }
 
 .home {
@@ -172,7 +172,7 @@ header.sticky {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  gap: 1.5rem;
+  gap: 3rem;
   justify-items: center;
 }
 
@@ -186,7 +186,7 @@ header.sticky {
 .about-text h2 {
   font-size: var(--h2-font);
   line-height: var(--line-height-tight);
-  margin-top: 3rem;
+  margin-top: 0;
   letter-spacing: -0.5px;
   font-weight: 800;
 }
@@ -211,7 +211,7 @@ header.sticky {
 
 .skills {
   background: var(--second-bg-color);
-  padding: 3rem 60px;
+  padding: 5rem 60px;
 }
 
 .main-text {
@@ -224,26 +224,30 @@ header.sticky {
   line-height: var(--line-height-normal);
   letter-spacing: 0.3px;
   font-weight: 400;
+  margin-bottom: 2rem;
 }
 
 .main-text h2 {
   font-size: var(--h2-font);
   line-height: var(--line-height-tight);
-  margin-bottom: 30px;
-  padding-top: 3rem;
+  margin-bottom: 15px;
+  padding-top: 0;
   letter-spacing: -0.5px;
   font-weight: 800;
 }
 
 .skills-container {
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .box {
   background: var(--bg-color);
-  padding: 35px 45px;
+  padding: 45px 55px;
   border-radius: 8px;
   justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 20px;
 }
 
 .box i {
@@ -256,8 +260,8 @@ header.sticky {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   align-items: center;
-  gap: 2.5rem;
-  margin-top: 5rem;
+  gap: 3rem;
+  margin-top: 4rem;
 }
 
 .row {
@@ -295,14 +299,14 @@ header.sticky {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  gap: 2.5rem;
+  gap: 4rem;
   margin-top: 3rem;
   padding-top: 6rem;
 }
 
 .contact-text p{
   color: var(--text-color);
-  margin: 30px 0;
+  margin: 25px 0;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -317,11 +321,11 @@ header.sticky {
 }
 
 .list {
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
 }
 
 .list li {
-  margin-bottom: 12px;
+  margin-bottom: 15px;
 }
 
 .list li a {
@@ -340,8 +344,8 @@ header.sticky {
 }
 
 .contact-icons i {
-  height: 45px;
-  width: 45px;
+  height: 50px;
+  width: 50px;
   background: var(--main-color);
   color: var(--text-color);
   font-size: 22px;
@@ -349,7 +353,8 @@ header.sticky {
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  margin-right: 15px;
+  margin-right: 20px;
+  margin-bottom: 10px;
   transition: all .45s ease;
 }
 
@@ -364,31 +369,32 @@ header.sticky {
 
 .contact-form form input, form textarea{
   width: 100%;
-  padding: 14px;
+  padding: 16px;
   background: var(--bg-color);
   color: var(--text-color);
   border: none;
   outline: none;
   font-size: 15px;
   border-radius: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 .contact-form textarea {
   resize: none;
-  height: 240px;
+  height: 280px;
+  margin-bottom: 16px;
 }
 
 button {
   width: 100%;
-  padding: 14px;
+  padding: 16px;
   background: var(--bg-color);
   color: var(--text-color);
   border: none;
   outline: none;
   font-size: 15px;
   border-radius: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 .contact-form .submit {
@@ -409,12 +415,12 @@ button {
 }
 
 .end {
-  padding: 20px 15%;
+  padding: 30px 15%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 2.5rem;
   background: var(--bg-color);
 }
 
